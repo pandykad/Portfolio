@@ -413,6 +413,8 @@ html{
 }
 
 /* Animation */
+
+}
 .anim-typewriter{
   animation: typewriter 3s steps(44) 1s 1 normal both,
              blinkTextCursor 500ms steps(44) infinite normal;
@@ -426,4 +428,9 @@ html{
   to{border-right-color: transparent;}
 }
 
-
+.logos {
+    position: absolute;
+    bottom: 5vh;
+    /* padding-left: 10px; */
+    
+}
