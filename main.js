@@ -45,31 +45,31 @@ navLink.forEach(n => n.addEventListener('click', linkAction))
 
 /* Scroll Reveal Animations */
 const sr = ScrollReveal({
-    origin: 'top',
+    origin: 'bottom',
     distance: '80px',
     duration: 2000,
     reset: true
 })
 
 /* Scroll Home */
-sr.reveal('.home_title',{})
-sr.reveal('.button',{delay: 200})
+sr.reveal('.caption',{})
+sr.reveal('.resume-button',{delay: 200})
 sr.reveal('.home_img',{delay: 400})
 sr.reveal('.home_social-icon',{interval: 200})
 
 /* Scroll About */
 sr.reveal('.about_img',{})
 sr.reveal('.about_subtitle',{delay: 200})
-sr.reveal('.about_text',{delay: 400})
+sr.reveal('.about_text',{delay: 200})
 
 /* Scroll Skills */
 sr.reveal('.skills_block',{interval: 200})
 
 /* Scroll Projects */
-sr.reveal('.project_img',{interval: 200})
+sr.reveal('.project_card',{interval: 200})
 
 /* Scroll Research papers */
-sr.reveal('.research_img',{interval: 200})
+sr.reveal('.research_card',{interval: 200})
 
 /* Scroll Contact */
-sr.reveal('.contact_message',{interval: 200})
+sr.reveal('.achieve_img',{interval: 200})
